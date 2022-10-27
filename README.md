@@ -16,6 +16,7 @@ python3 flaskrun.py
 
 ```sh
 
+
 .
 ├── LICENSE.md
 ├── README.md
@@ -31,13 +32,9 @@ python3 flaskrun.py
 │       ├── index.html
 │       └── user.html
 ├── catalouge.md
-├── requirements.txt
-└── templates
-    ├── 404.html
-    └── 500.html
+└── requirements.txt
 
-7 directories, 11 files
-
+6 directories, 9 files
 
 ```
 
