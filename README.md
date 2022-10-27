@@ -14,23 +14,30 @@ python3 flaskrun.py
 
 # structur
 
-```
-    .
-    ├── LICENSE.md
-    ├── README.md
-    ├── app
-    │   ├── static
-    │   │   ├── css
-    │   │   ├── images
-    │   │   └── js
-    │   └── templates
-    │       ├── 404.html
-    │       ├── 500.html
-    │       ├── index.html
-    │       └── user.html
-    ├── catalouge.md
-    ├── flaskrun.py
-    └── requirements.txt
+```sh
+
+.
+├── LICENSE.md
+├── README.md
+├── app
+│   ├── flaskrun.py
+│   ├── static
+│   │   ├── css
+│   │   ├── images
+│   │   └── js
+│   └── templates
+│       ├── 404.html
+│       ├── 500.html
+│       ├── index.html
+│       └── user.html
+├── catalouge.md
+├── requirements.txt
+└── templates
+    ├── 404.html
+    └── 500.html
+
+7 directories, 11 files
+
+
 ```
 
-6 directories, 9 files
