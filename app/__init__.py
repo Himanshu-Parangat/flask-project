@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-
-#DEBUG=TRUE devlopment envierment
 from flask import Flask,render_template
-# flask instance
+
+#flask instance
 app = Flask(__name__)
-
-
 
 # localhost:5000/
 @app.route('/')
@@ -43,9 +40,6 @@ def page_not_found(error):
 def special_exception_handler(error):
     return render_template('500.html'), 500
 
-
-if (__name__ == "__main__" ):
-    app.run(debug=True)
 
 
 
